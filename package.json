@@ -1,0 +1,18 @@
+{
+  "name": "molaibot-dash-api",
+  "version": "1.0.0",
+  "description": "The API For MolaiBOT's New Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon .",
+    "format": "prettier --write ."
+  },
+  "author": "Mahir Molai",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.7",
+    "mongoose": "^5.12.14"
+  }
+}
